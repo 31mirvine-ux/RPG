@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moonlit Dungeon</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-shell">
+      <div class="hud">
+        <div><strong>Hero:</strong> <span id="name">Ari</span></div>
+        <div><strong>HP:</strong> <span id="hp">100</span></div>
+        <div><strong>Level:</strong> <span id="level">1</span></div>
+        <div><strong>Gold:</strong> <span id="gold">0</span></div>
+        <div><strong>Wave:</strong> <span id="wave">1</span></div>
+      </div>
+
+      <canvas id="gameCanvas" width="960" height="540" aria-label="Moonlit Dungeon game"></canvas>
+
+      <div class="controls">
+        Move: WASD / Arrow Keys · Attack: Space · Restart: R
+      </div>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
